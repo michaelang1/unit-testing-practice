@@ -4,7 +4,7 @@ function isFive(num) {
 
 function isOdd(number) {
 	if (typeof number !== 'number') {
-		throw new Error('Give me a number!');
+		throw new TypeError('Give me a number!');
 	} else {
 		return number % 2 === 0 ? false : true;
 	}
